@@ -1,0 +1,4 @@
+Each blog has a subscription option, if anyone wants to get a new post from this blog, then only subscribe via email. 
+If a new post is posted on the blog then the link of that post will automatically be sent to that email. 
+Going into the blog does not have to check it again and again that no new post has arrived. 
+If you want to make modules themselves, then how to make them. ??
