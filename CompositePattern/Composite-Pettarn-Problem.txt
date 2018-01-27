@@ -1,0 +1,8 @@
+Think, a programmer is contractually contracted to develop a software for BFC. 
+One of the many modules of BFC's software is that the owner of BFC will be able to filter out the amount of transactions in the field. 
+For example, in the city of Dhaka in June 2018, you will be able to see how much of the total sold out of BFC's all outlets. 
+BFCs can have many outlets / stores in every zone. There are many stores of BFC in Dhaka Zone. 
+Now if the programmer has to calculate the total sales volume of Dhaka Zone every month, 
+then he will have to calculate the sale of all the BFC outlets in Dhaka Zone every month. For this reason, 
+the programmers considered the stores as an NTT to find out the level of each store. Every store has a unique ID, 
+there will be a name and there will be a property for how much it has been sold every month.
