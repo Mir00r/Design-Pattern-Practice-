@@ -8,6 +8,16 @@ package strategypattern.mir00r.model;
 import strategypattern.mir00r.service.IFighter;
 
 /**
+ * This class is optional. But if it is present, it acts as single point of
+ * contact for client.
+ *
+ * Multiple uses of Context
+ *
+ * 1. It can populate data to execute an operation of strategy 
+ * 2. It can take independent decision on Strategy creation. 
+ * 3. In absence of Context, client should be aware of concrete strategies. 
+ * Context acts a wrapper and hides internals 
+ * 4. Code re-factoring will become easy
  *
  * @author Created by Mir00r
  */
