@@ -1,0 +1,44 @@
+					Structural
+	-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+	
+		This design patterns is all about Class and Object composition i.e. 
+		How do you want structure the software component.
+			
+
+1. Proxy - An object representing another object
+
+		Example: checkbook leaf, credit card, debit card are the proxy for Money and a customer representative to order a product.
+
+		java.rmi.*, the whole API actually.
+
+2. Composite - Gives a unified interface to a leaf and composite.
+
+		Example: File System in Operating Systems, Directories are composite and files are leaves. 
+		System call Open is a single interface for both composite and leaf.
+
+3. Decorator - Gives additional feature to leaf, while giving unified interface.
+	
+		Example: 
+			-> Adding discounts on an order 
+			-> Gun is a deadly weapon on its own. 
+			But you can apply certain "decorations" to make it more accurate, silent and devastating.
+
+		All subclasses of java.io.InputStream, OutputStream, Reader, and Writer have a constructor taking an instance of the same type.
+
+4. Facade - Simplifies multiple complex components with single interface
+	
+		Example: Control Panel
+
+		javax.faces.context.ExternalContext, which internally uses ServletContext, HttpSession, HttpServletRequest, HttpServletResponse, et
+
+5. Adapter - Provides different interface for an interface.
+
+		Example: Power Adapters
+
+		java.util.Arrays#asList()
+		
+6. Flyweight - A fine-grained instance used for efficient sharing
+		
+		Example : Dial tone
+
+		java.lang.Integer#valueOf(int) (also on Boolean, Byte, Character, Short and Long)
