@@ -1,0 +1,77 @@
+					Behavioral
+	-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+	
+		This design patterns is all about Class's objects communication i.e How do you want a behavior in software?
+			
+
+1. Chain of Responsibility - A way of passing a request between a chain of objects
+
+		Example: Loan or Leave approval process
+
+		javax.servlet.Filter#doFilter()
+
+
+2. Iterator - Sequentially access the elements of a collection
+
+		Example: Next/Previous buttons on TV
+
+		All implementations of java.util.Iterator & java.util.Enumeration
+
+
+3. State - Alter an object's behavior when its state changes
+
+		Example: A fan wall control
+		
+
+4. Observer - A way of notifying change to a number of classes
+
+		Example: Bidding or auction
+
+		Publish/Subscribe JMS API
+		
+
+5. Visitor - Defines a new operation to a class without change
+
+		Example: Taxi
+		
+
+6. Template - Defer the exact steps of an algorithm to a subclass
+		Example: A blueprint
+
+		-> All non-abstract methods of java.io.InputStream, java.io.OutputStream, java.io.Reader and java.io.Writer.
+		-> All non-abstract methods of java.util.AbstractList, java.util.AbstractSet and java.util.AbstractMap.
+		-> javax.servlet.http.HttpServlet, all the doXXX() methods by default sends a HTTP 405 "Method Not Allowed" error to the response. 
+			You're free to implement none or any of them.
+		-> JMSTemplate HibernateTemplate and JdbcTemplate in Spring
+
+		
+7. Command - Encapsulate a command request as an object
+
+		Example: The "Guest Check" at a diner is an example of a Command pattern. 
+		The waiter or waitress takes an order or command from a customer and encapsulates that order by writing it on the check. 
+		The order is then queued for a short order cook. Note that the pad of "checks" used by each waiter is not dependent on the menu, 
+		and therefore they can support commands to cook many different items.
+
+		All implementations of java.lang.Runnable
+		
+
+8. Memento - Capture and restore an object's internal state
+
+		Example: save the state in a game & Undo/Redo operation in Windows
+
+		All implementations of java.io.Serializable
+
+		
+9. Mediator - Defines simplified communication between classes
+
+		Example: Air Traffic Controller(ATC)
+
+		
+10. Strategy - A Strategy defines a set of algorithms that can be used interchangeably.
+
+		Example : Modes of transportation
+
+		-> java.util.Comparator#compare(), executed by among others Collections#sort().
+		-> javax.servlet.http.HttpServlet, the service() and all doXXX() methods take HttpServletRequest 
+			and HttpServletResponse and the implementor has to process them (and not to get hold of them as instance variables!).
+		-> javax.servlet.Filter#doFilter()
