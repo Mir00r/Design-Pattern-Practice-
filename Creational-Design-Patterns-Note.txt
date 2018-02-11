@@ -1,0 +1,37 @@
+					Creational
+	-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+	
+			How do you want to create objects?
+			
+
+1. Prototype: A fully initialized instance to be copied or cloned
+		Example: initial status of chess game
+		java.lang.Object#clone()
+
+2. Builder - Separates the construction of a complex object from its representation 
+			so that the same construction process can create different representations
+			
+		Example: Kitchen is a Factory, Chef is a Builder where waiter tells to the chef "pizza with cheese, onion". 
+				Here chef exposed attributes but hidden implementation.
+
+		java.lang.StringBuilder
+			
+3. Singleton - A class of which only a single instance can exist
+	
+		Example: President of a country
+
+		java.lang.Runtime#getRuntime()
+
+4. Factory Method - Creates an instance of several derived classes.
+
+		Example: In an organization, HR works as a factory method. 
+				Here development team request type of resource needs to HR. 
+				Based on request type, HR provides resource to Development team.
+
+		java.util.Calendar#getInstance()
+				
+5. Abstract Factory - Creates an instance of several families of classes
+				
+		Example: HP, Samsung, and Dell laptops are using Intel and AMD processor.
+
+		javax.xml.parsers.DocumentBuilderFactory#newInstance()
