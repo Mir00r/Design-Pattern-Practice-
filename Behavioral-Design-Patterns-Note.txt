@@ -1,8 +1,8 @@
 					Behavioral
 	-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 	
-		This design patterns is all about Class's objects communication i.e How do you want a behavior in software?
-			
+		=> This design patterns is all about Class's objects communication.
+		=> Behavioral patterns are about identifying common communication patterns between objects and realize these patterns.	
 
 1. Chain of Responsibility - A way of passing a request between a chain of objects
 
