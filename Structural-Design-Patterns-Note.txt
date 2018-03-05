@@ -1,8 +1,10 @@
 					Structural
 	-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 	
-		This design patterns is all about Class and Object composition i.e. 
+		=> This design patterns is all about Class and Object composition i.e. 
 		How do you want structure the software component.
+		
+		=> These design patterns are about organizing different classes and objects to form larger structures and provide new functionality.
 			
 
 1. Proxy - An object representing another object
