@@ -11,11 +11,11 @@ import strategypattern.mir00r.service.IFighter;
  *
  * @author Created by Mir00r
  */
-public class Aggresive implements IFighter {
+public class Aggressive implements IFighter {
 
     @Override
     public void fight() {
-        System.out.println("Fighter is now fight in Aggresive mode ...... ha ha h..... !!");
+        System.out.println("Fighter is now fight in Aggressive mode ...... ha ha h..... !!");
     }
 
 }

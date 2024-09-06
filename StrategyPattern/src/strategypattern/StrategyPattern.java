@@ -6,7 +6,7 @@
 package strategypattern;
 
 import java.util.Random;
-import strategypattern.mir00r.dao.Aggresive;
+import strategypattern.mir00r.dao.Aggressive;
 import strategypattern.mir00r.dao.Defensive;
 import strategypattern.mir00r.model.Fighter;
 
@@ -28,7 +28,7 @@ public class StrategyPattern {
         if (fighter.getHealth() <= 50) {
             fighter.changeFighterMode(new Defensive());
         } else if (fighter.getHealth() > 50) {
-            fighter.changeFighterMode(new Aggresive());
+            fighter.changeFighterMode(new Aggressive());
         }
     }
 }
