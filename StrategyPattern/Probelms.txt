@@ -1,7 +1,0 @@
-Strategy pattern is quite funny and easy to design a pattern. 
-This pattern does not have to be added to change the algorithm or common object of the runtime in runtime.
-
-Think of an action game where a warrior has to fight with many villains. 
-Fighters have the power / health at the beginning of the game 100% and in the beginning the fighters are in the cut-cut mode, 
-meaning that they are in an aggressive mode. Slowly the combatant's health decreases and he goes to defensive mode. 
-Then he continues to look for food, and when he gets food, his health again becomes 100% and he goes back to the aggressive mode.

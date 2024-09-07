@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package strategypattern;
+
+import dao.Aggressive;
+import dao.Defensive;
+import model.Fighter;
 
 import java.util.Random;
-import strategypattern.mir00r.dao.Aggressive;
-import strategypattern.mir00r.dao.Defensive;
-import strategypattern.mir00r.model.Fighter;
 
 /**
  *

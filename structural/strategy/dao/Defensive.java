@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package strategypattern.mir00r.dao;
+package dao;
 
-import strategypattern.mir00r.service.IFighter;
+
+import service.IFighter;
 
 /**
  *
  * @author Created by Mir00r
  */
-public class Aggressive implements IFighter {
+public class Defensive implements IFighter {
 
     @Override
     public void fight() {
-        System.out.println("Fighter is now fight in Aggressive mode ...... ha ha h..... !!");
+        System.out.println("Fighter is now fight in Defensive mode ...... ha ha h..... !!");
     }
-
 }
